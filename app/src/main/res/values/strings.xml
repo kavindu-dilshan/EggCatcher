@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Egg Catcher</string>
+    <string name="your_score">Your Score</string>
+    <string name="play_again">Play Again</string>
+    <string name="high_score">High Score</string>
+    <string name="_23">23</string>
+    <string name="new_game">New Game</string>
+    <string name="copyright">Developed By Kavindu Dilshan</string>
+    <string name="game_controls">Game Controls</string>
+    <string name="gcDescription">Move Left or Right: To catch the falling eggs, you need to move the basket left or right.</string>
+    <string name="gameplay">Gameplay</string>
+    <string name="gpDescription">As the game starts, eggs will fall from the top of the screen. Your task is to catch them with your basket before they hit the ground.</string>
+    <string name="back_to_menu">Back to Menu</string>
+    <string name="instructions">Instructions</string>
+    <string name="quit">Quit</string>
+</resources>

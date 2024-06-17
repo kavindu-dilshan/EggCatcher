@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:gravity="center"
+    tools:context=".InstructionsActivity">
+
+    <ImageView
+        android:id="@+id/how"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/how" />
+
+    <TextView
+        android:id="@+id/gameControls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:paddingHorizontal="50dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="@string/game_controls"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/how"
+        app:layout_constraintStart_toStartOf="@id/how"
+        app:layout_constraintEnd_toEndOf="@id/how"/>
+
+    <TextView
+        android:id="@+id/gameControlsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="@string/gcDescription"
+        app:layout_constraintTop_toBottomOf="@id/gameControls"
+        app:layout_constraintStart_toStartOf="@id/how"
+        app:layout_constraintEnd_toEndOf="@id/how"/>
+
+    <TextView
+        android:id="@+id/gameplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="50dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:text="@string/gameplay"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/gameControlsDescription"
+        app:layout_constraintStart_toStartOf="@id/how"
+        app:layout_constraintEnd_toEndOf="@id/how"/>
+
+    <TextView
+        android:id="@+id/gameplayDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="60dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="@string/gpDescription"
+        app:layout_constraintTop_toBottomOf="@id/gameplay"
+        app:layout_constraintStart_toStartOf="@id/how"
+        app:layout_constraintEnd_toEndOf="@id/how"/>
+
+    <Button
+        android:id="@+id/backToGame"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="40dp"
+        android:text="@string/back_to_menu"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gameplayDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
